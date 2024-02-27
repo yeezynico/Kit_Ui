@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.css">
+  <title>Présentation des éléments</title>
+</head>
+
+<body class="pres">
+  <section class="nav-sec">
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">EVENTBRITE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Create</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section class="banner-sec">
+    <div class="p-5 text-center bg-image" style="background-image: url('https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); height: 600px;">
+      <div class="mask">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="text-white">
+            <h1 class="mb-3">Eventbrite</h1>
+            <p class="mb-3" id="lorem">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+            <a class="btn btn-outline-light btn-md" href="#!" role="button" id="call">Call to action</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="eventcards-sec">
+    <div class="event-text">
+      <h4>Event</h4>
+      <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+    </div>
+    <div class="row-event">
+      <div class="card" style="width: 18rem;" id="card-sec">
+        <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+        <div>
+          <div class="body-event">
+            <h5 class="card-title">Event Name</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <a href="#" class="btn btn-outline-info" id="see-event">View event</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;" id="card-sec">
+        <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+        <div>
+          <div class="body-event">
+            <h5 class="card-title">Event Name</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <a href="#" class="btn btn-outline-info" id="see-event">View event</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;" id="card-sec">
+        <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+        <div>
+          <div class="body-event">
+            <h5 class="card-title">Event Name</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <a href="#" class="btn btn-outline-info" id="see-event">View event</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="citycard-sec">
+    <div class="row-city" id="city-sec">
+      <div class="col-xs-12 col-sm-4" id="row-city">
+         <div class="card-city" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1576244348464-c7d393b6dfc0?q=80&w=2986&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+           <div class="card-category">Ville</div>
+           <div class="card-description">
+             <h2>Marseille</h2>
+             <p>Tous les évènements de la ville de Marseille</p>
+           </div>
+           <a class="card-link" href="#" ></a>
+         </div>
+      </div>
+      <div class="city-text">
+        <h4>CITY</h4>
+        <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="footer-sec">
+    <div class="footer-infos">
+      <div class="col">
+        <h5>Utiliser Eventbrite</h5>
+        <a href="">Tarif</a>
+        <a href="">Plan de salle</a>
+      </div>
+
+      <div class="col">
+        <h5>Planifiez vos évènements</h5>
+        <a href="">Vendre des billets en ligne</a>
+        <a href="">Gestion d'évènements en ligne</a>
+        <a href="">Inscription gratuite à un évènement</a>
+      </div>
+
+      <div class="col">
+        <h5>Rechercher des évènements</h5>
+        <a href="">Évènements Paris</a>
+        <a href="">Évènements Marseille</a>
+        <a href="">Évènements Toulouse</a>
+        <a href="">Toutes les villes</a>
+      </div>
+      
+      <div class="col">
+        <h5>Restons connectés</h5>
+        <a href="">Contacter l'assitance</a>
+        <a href="">Twitter</a>
+        <a href="">Facebook</a>
+        <a href="">LinkedIn</a>
+        <a href="">Instagram</a>
+      </div>
+    </div>
+
+    <div class="company">
+      <p>© Hiver 2024</p>
+
+      <div class="about">
+        <a href="">À propos</a>
+        <a href="">FAQ</a>
+        <a href="">Conditions et confidentialité</a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+</body>
+</html>

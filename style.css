@@ -1,0 +1,452 @@
+/* DÉBUT NAVBAR */
+.body-nav {
+  background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+
+/* DÉBUT BANNIÈRES */
+#title {
+  justify-content: center;
+}
+
+.text-white {
+  margin-top: 140px;
+}
+
+#lorem {
+  color: white;
+}
+
+#call {
+  color: orangered;
+}
+/* FIN BANNIÈRES */
+
+
+
+/* DÉBUT FORMULAIRE */
+h1{
+text-align: center;
+}
+
+.forms-group {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-row {
+  width: 20%;
+}
+
+.text_center{
+  text-align: center;
+}
+
+.form-column {
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 20px;
+}
+
+input{
+width: 100%;
+padding: 10px;
+border-radius: 3px;
+border: none;
+border: 2px solid rgb(0, 0, 0);
+}
+
+input[type='submit'] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+padding: 10px;
+width: 100%;
+margin: auto;
+margin-top: 30px;
+background-color: #FAC4AF;
+}
+
+input[type='submit']:hover {
+background-color: #fac4afa3;
+border: 2px solid #ff7e3392;
+}
+
+.colors:focus{
+outline: none !important;
+border: 2px solid #ff7e33c8;
+background-color: #fac4af71;
+box-shadow: 0 0 10px #719ECE;
+}
+
+.bcolor{
+display: flex;
+
+background-color: #D5D6D7;
+}
+
+.psw{
+color: #45494A;
+display: flex;
+justify-content: center;
+}
+
+.psw:hover{
+color: #ff7e33;
+text-decoration: underline;
+}
+
+.text-m{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: orangered;
+}
+
+.body-form {
+  background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+/* FIN FORMULAIRE */
+
+
+/* DEBUT FOOTER */
+footer {
+  background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  width: 100%;
+  position: absolute;
+  left: 0; bottom: 0; right: 0;
+  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue";
+}
+
+.footer-infos {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer a, p {
+  text-decoration: none;
+  font-size: small;
+  color: black;
+}
+
+footer h5 {
+  color: white;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company p {
+  margin-left: 150px;
+  color: orangered;
+}
+
+.about {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.about a {
+  margin: 0 10px;
+  color: orangered;
+}
+/* FIN FOOTER */
+
+
+/* DÉBUT CARDS PARTICIPANTS */
+#img {
+  width : 100px;
+  height : 100px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.body-attendees {
+  background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.attendees {
+  margin-top: 90px;
+}
+
+.card-body {
+  margin-left: 0px;
+  display: flex;
+}
+
+.text-body {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.title-list {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* FIN CARDS PARTICIPANTS */
+
+
+/* DÉBUT COMMENTAIRE */
+.body-comment {
+  background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+#submit {
+  color: orangered;
+  margin-top: 10px;
+}
+
+.form-label {
+  color: orangered;
+}
+
+.comment-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.list-group {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.list-group-item {
+  margin-top: 10px;
+}
+
+.avatar-container {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+}
+
+.form-group {
+  width: 300%;
+}
+
+.comment-box {
+  margin-right: 450px;
+}
+/* FIN COMMENTAIRE */
+
+
+/* DÉBUT EVENT CARDS */
+#see-event {
+  margin-left: 65px;
+  color: orangered;
+}
+
+.body-event {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.row-event {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.full-body {
+  background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+/* FIN EVENT CARDS */
+
+
+
+/* DÉBUT CITY CARDS */
+.body-city {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.padded {
+  padding: 100px 0;
+}
+
+.card-city {
+  height: 250px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-description h2 {
+  font-size: 22px;
+  color: white;
+}
+
+.card-description p {
+  font-size: 15px;
+  color: orangered;
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index:2;
+  background: black;
+  opacity: 0;
+}
+
+.card-link:hover{
+  opacity: 0.1;
+}
+
+.features img {
+  width: 100px;
+}
+
+.features h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.features p {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.row-city {
+  display: flex;
+  margin-top: 70px;
+}
+
+#row-city {
+  margin-right: 10px;
+}
+
+.container {
+  margin-top: 20px;
+}
+/* FIN CITY CARDS */
+
+
+
+
+/* DÉBUT ELEMENT PRESENTATION */
+/*section event*/
+.event-text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#card-sec {
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+/*section city*/
+.citycard-sec {
+  background-image: url(https://images.unsplash.com/photo-1617957689274-3892378a716a?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+#city-sec {
+  margin-left: 20px;
+}
+
+#row-city {
+  margin-top: 20px;
+}
+
+.city-text {
+  justify-content: right;
+  margin-top: 130px;
+  margin-left: 80px;
+}
+
+.footer-sec {
+  background-image: url(https://images.unsplash.com/photo-1612404748636-568ca4155994?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+/* FIN ELEMENT PRESENTATION */
+
+
+/* DÉBUT PRESENTATION RESSOURCE */
+.description {
+  text-align: justify;
+}
+
+#img-fluid2 {
+  display: flex;
+  justify-content: center;
+}
+
+#img-fluid3 {
+ margin-left: 200px;
+}
+
+.tags {
+  margin-top: 20px;
+}
+
+.body-pres {
+  background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+
+
+/* FIN PRESENTATION RESSOURCE */

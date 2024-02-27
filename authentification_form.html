@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.css">
+  <title>Formulaire d'authentification</title>
+</head>
+
+<body class="body-form"> 
+  <div class="forms-group">
+    <div class="form-row">
+      <h1>Please sign up</h1>
+      <div class="text_center">
+          <p><strong> Sign up to manage your account.</strong></p>
+      </div>
+      <form method="get" action="#">
+          <div class="form-nom-email">
+              <div class="form-column">
+                  <input class="colors" type="email" name="email" id="email" placeholder="email">
+              </div>
+              <div class="form-column">
+                  <input class="colors" type="password" name="password" id="password" placeholder="password">
+              </div>
+              <div class="form-column">
+                  <input class="colors" type="confirm-password" name="confirm-password" id="confirm-password" placeholder="confirm password">
+              </div>
+          </div>
+          <input type="submit" value="Sign up" class="cta">
+      </form>
+    </div>
+
+    <div class="form-row">
+      <h1>Log in</h1>
+    <div class="text_center">
+        <p><strong>Log in to manage your account.</strong></p>
+    </div>
+    <form method="get" action="#">
+        <div class="form-nom-email">
+            <div class="form-column">
+                <input class="colors" type="text" name="nom" id="nom" placeholder="email">
+            </div>
+            <div class="form-column">
+                <input class="colors" type="email" name="email" id="email" placeholder="password">
+            </div>
+        </div>
+        <div class="psw">
+            <a class="float-right" href="recover-account.html">Forgot Password?</a>
+        </div>
+        <input type="submit" value="Log in" class="cta">
+        <p class="text-m">Do not have an account? <a href="signup-simple.html">Signup</a></p>
+    </form>
+    </div>
+
+    <div class="form-row">
+      <h1>Recover account</h1>
+      <div class="text_center">
+          <p><strong>Enter your email and an email will be sent to you.</strong></p>
+      </div>
+      <form method="get" action="#">
+          <div class="form-nom-email">
+              <div class="form-column">
+                  <input class="colors" type="text" name="nom" id="nom" placeholder="email">
+              </div>
+          </div>
+          <input type="submit" value="Recover account" class="cta">
+          <p class="text-m">Have an account? <a href="signup-simple.html">Log in</a></p>
+      </form>
+    </div>
+
+  </div>
+</body>
+
+</html>
